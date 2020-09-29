@@ -454,6 +454,7 @@ mark,
 }
 
 .list-inline-item {
+  color : #00060b;
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
@@ -10058,7 +10059,7 @@ a.close.disabled {
   }
 
   .subheading {
-    font-family : 'Nanum Gohtic';
+    font-family : 'Noto Sans KR';
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
@@ -10165,7 +10166,7 @@ a.close.disabled {
   }
 
   * {
-    font-family: 'Nanum Gothic'; 
+    font-family: 'Noto Sans KR'; 
   }
 
   h1, h2, h3, h4, h5 {
@@ -10178,7 +10179,8 @@ a.close.disabled {
 
   .Box_ul {
     list-style : none;
-  }
+    padding-left : 0px;
+  };
   ul {
     display : block;
     margin-block-start : 1em;
