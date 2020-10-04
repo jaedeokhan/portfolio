@@ -461,6 +461,10 @@ mark,
   margin-right: 0.5rem;
 }
 
+.db-font-size {
+  font-size : 35px;
+}
+
 .initialism {
   font-size: 90%;
   text-transform: uppercase;
